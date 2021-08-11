@@ -1606,6 +1606,41 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@pastable/core@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@pastable/core/-/core-0.1.8.tgz#aa7647741a56d00a162ccd28c5d4ad8edafe1701"
+  integrity sha512-d0CiNxlUecf3OO6fxrAzDdIPjwD8vmymYOo2zNTKVvtRBkWdgvVgv2qrgYhVQaZS56ix8CabBdTOv8FYbIZlWw==
+  dependencies:
+    "@pastable/react" "0.1.6"
+    "@pastable/typings" "0.0.2"
+    "@pastable/utils" "0.1.4"
+    jotai "^0.16.5"
+    react "^17.0.2"
+
+"@pastable/react@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@pastable/react/-/react-0.1.6.tgz#e7f454816a1a1b3be78b07933f8053b17abc2d21"
+  integrity sha512-9GDoanJTZey2tEWLpHlcZ6P9/0oASBaLt2kQjQy8sFrK0SomHQeo3nic8+8N4Yqa+pc4IdkIjnXr0BIC0nhR7g==
+  dependencies:
+    "@pastable/utils" "0.1.3"
+    jotai "^0.16.8"
+    react "^17.0.2"
+
+"@pastable/typings@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pastable/typings/-/typings-0.0.2.tgz#32e71cc3b72edde865101fb54965e3c47912428f"
+  integrity sha512-e5HAu5CJB0COp+zXHCSIcwQpJE28F6NBN7SYCfaKlJ5Xh3jCMwUbW6KVadnW6lEWxMXVRTrvA13Gy5SMGwijWQ==
+
+"@pastable/utils@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@pastable/utils/-/utils-0.1.3.tgz#7bc2af23e620bf8db7e42d60a7487f62f0f9b715"
+  integrity sha512-pOoTc1xarmqkdWwoZC/pJUG7EgpEfH9MTQBwcVRLe1vrUz1xAk5dUBPyK6cmLdvf9SYx258N0s5PwQD3o4U0sA==
+
+"@pastable/utils@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@pastable/utils/-/utils-0.1.4.tgz#13e86558601967fa3174c375e50ca4b0d9353a47"
+  integrity sha512-Necr+L5EAGQCsitzXh7Q/t97akAvH24aiNe3UgtsaHhj/EtsOGinngdwP/AxgDK0f5Xt4umhdTyEQeKUDXc7IQ==
+
 "@popperjs/core@2.4.4":
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.4.4.tgz#11d5db19bd178936ec89cd84519c4de439574398"
@@ -2383,6 +2418,11 @@ jest-worker@^26.2.1:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
+jotai@^0.16.5, jotai@^0.16.8:
+  version "0.16.11"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-0.16.11.tgz#efeaf0311513cf41d5c82b7009f8381d518cbc41"
+  integrity sha512-EPBeDSBc4FwbFRArRjcI6IsHrVkba771mSOFTN3M4r5rU3ZcZMDFLElZScZVr6w1kgrEXvaMm59VAyEB3QUEbA==
+
 jotai@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.2.2.tgz#631fd7ad44e9ac26cdf9874d52282c1cfe032807"
@@ -2710,10 +2750,10 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-query@^3.19.0:
-  version "3.19.0"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.19.0.tgz#e1fe8f62b9956fb2986317686c27f79ad7ee4e7e"
-  integrity sha512-AaerSVsmBG2iIciwX2x8cWZS4Htw/4u2GFTYK8oiicpX3PY5mvat/8/Y3wZhM47KlllAzvC+P9MW81oHuEt2wg==
+react-query@^3.19.4:
+  version "3.19.4"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.19.4.tgz#67b97470446bd0315d02066debec7775cac83f29"
+  integrity sha512-/jQXoYv2IqWnYx665M1da/M6EFaaSDtP8jVqcCFk3vhpJsNYYwFG9vPjqIUv/GRpKp4qzk+qwTkJfF/bHeBuZQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
@@ -2781,7 +2821,7 @@ react-style-singleton@^2.1.0:
     invariant "^2.2.4"
     tslib "^1.0.0"
 
-react@^17.0.0:
+react@^17.0.0, react@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
