@@ -9,8 +9,7 @@ Front SPA with:
 - API: [axios](https://github.com/axios/axios) +
   [react-query](https://github.com/tannerlinsley/react-query)
 - Forms: [React-Hook-Form](https://github.com/react-hook-form/react-hook-form/)
-- CSS / Styling: Du CSS-in-JS avec
-  [Chakra-UI](https://github.com/chakra-ui/chakra-ui) with `Box` etc composants
-  de base
+- CSS / Styling: CSS-in-JS using
+  [Chakra-UI](https://github.com/chakra-ui/chakra-ui) with `Box` etc
 - Websockets:
   [native WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)

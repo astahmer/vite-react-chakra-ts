@@ -1606,14 +1606,14 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pastable/core@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pastable/core/-/core-0.1.8.tgz#aa7647741a56d00a162ccd28c5d4ad8edafe1701"
-  integrity sha512-d0CiNxlUecf3OO6fxrAzDdIPjwD8vmymYOo2zNTKVvtRBkWdgvVgv2qrgYhVQaZS56ix8CabBdTOv8FYbIZlWw==
+"@pastable/core@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@pastable/core/-/core-0.1.9.tgz#525292b774ba8151361a262556fd8651423f2c44"
+  integrity sha512-HiMA2EgIMmNpemVrihufYk0VfuTDMZt+i+MFZQjdwJGIcBVE/JlZgplf34XOLcokv7VvaZhZtgS4dAP6r0yArg==
   dependencies:
     "@pastable/react" "0.1.6"
     "@pastable/typings" "0.0.2"
-    "@pastable/utils" "0.1.4"
+    "@pastable/utils" "0.1.5"
     jotai "^0.16.5"
     react "^17.0.2"
 
@@ -1636,10 +1636,10 @@
   resolved "https://registry.yarnpkg.com/@pastable/utils/-/utils-0.1.3.tgz#7bc2af23e620bf8db7e42d60a7487f62f0f9b715"
   integrity sha512-pOoTc1xarmqkdWwoZC/pJUG7EgpEfH9MTQBwcVRLe1vrUz1xAk5dUBPyK6cmLdvf9SYx258N0s5PwQD3o4U0sA==
 
-"@pastable/utils@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@pastable/utils/-/utils-0.1.4.tgz#13e86558601967fa3174c375e50ca4b0d9353a47"
-  integrity sha512-Necr+L5EAGQCsitzXh7Q/t97akAvH24aiNe3UgtsaHhj/EtsOGinngdwP/AxgDK0f5Xt4umhdTyEQeKUDXc7IQ==
+"@pastable/utils@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@pastable/utils/-/utils-0.1.5.tgz#936519cb168a72b032ae7ef17c9a757538237161"
+  integrity sha512-GfOI049u04BWbGwZ++9DYE3KRavTi/osAC4B9g2dfrdd8K9kgvll68fEQ0o6B35wN9oSn4PQn4ANCO4ejUmJ8A==
 
 "@popperjs/core@2.4.4":
   version "2.4.4"
