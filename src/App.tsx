@@ -1,6 +1,8 @@
-import { ChakraProvider, extendTheme, Flex } from "@chakra-ui/react";
-import { QueryClient, QueryClientProvider } from "react-query";
 import "./App.css";
+
+import { ChakraProvider, Flex, extendTheme } from "@chakra-ui/react";
+import { QueryClient, QueryClientProvider } from "react-query";
+
 import { Demo } from "./components/Demo";
 
 const queryClient = new QueryClient();
