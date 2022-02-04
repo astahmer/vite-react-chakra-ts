@@ -12,7 +12,7 @@
         "@chakra-ui/react": "^1.8.1",
         "@emotion/react": "^11.7.1",
         "@emotion/styled": "^11.6.0",
-        "@pastable/core": "^0.1.17",
+        "@pastable/core": "^0.1.19",
         "@xstate/react": "^2.0.0",
         "axios": "^0.25.0",
         "framer-motion": "^6.2.3",

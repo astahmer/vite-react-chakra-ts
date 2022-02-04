@@ -5,7 +5,7 @@ specifiers:
   '@chakra-ui/react': ^1.8.1
   '@emotion/react': ^11.7.1
   '@emotion/styled': ^11.6.0
-  '@pastable/core': ^0.1.17
+  '@pastable/core': ^0.1.19
   '@types/react': ^17.0.39
   '@types/react-dom': ^17.0.11
   '@vitejs/plugin-react': ^1.1.4
@@ -31,7 +31,7 @@ dependencies:
   '@chakra-ui/react': 1.8.1_88034fc2b4952240f4541bcaed1eccf6
   '@emotion/react': 11.7.1_1f521ea4d22f56301c9243450fe7194f
   '@emotion/styled': 11.6.0_ba4ec3a77d3d9eb7e3d5afde2c760205
-  '@pastable/core': 0.1.17_jotai@1.5.3+react@17.0.2
+  '@pastable/core': 0.1.19_3dacb23fede207cf2adfae90390dba6d
   '@xstate/react': 2.0.0_b2730fbad1dada8c45d201a94f0d2c3b
   axios: 0.25.0
   framer-motion: 6.2.3_react-dom@17.0.2+react@17.0.2
@@ -2178,8 +2178,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@pastable/core/0.1.17_jotai@1.5.3+react@17.0.2:
-    resolution: {integrity: sha512-r7Np8mR15N316S89SvSjqytJfjvCT/zR+5lQUHfzcTnBmJh9gBngIAT3D9MtmXFwcdUJRsB1+aLh4jL0l1SJVg==}
+  /@pastable/core/0.1.19_3dacb23fede207cf2adfae90390dba6d:
+    resolution: {integrity: sha512-cdptU4uFwr/1AJRc46xV/MvlKG4N1xuA8GZXt77J1kx/juHN1gUFrF7z0ZEtiWb/JpL/OdiSUhQwXJ1PpGVBFg==}
     engines: {node: '>=14.x'}
     peerDependencies:
       jotai: '*'
@@ -2190,8 +2190,56 @@ packages:
       react:
         optional: true
     dependencies:
+      '@pastable/react': 0.1.15_c6eb729cfe5aa3b08bc18d235e14915f
+      '@pastable/typings': 0.0.8
+      '@pastable/utils': 0.1.15
       jotai: 1.5.3_a74bd11cbaca440509a36c4f0d25318f
       react: 17.0.2
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/template'
+      - '@urql/core'
+      - immer
+      - optics-ts
+      - react-query
+      - valtio
+      - wonka
+      - xstate
+    dev: false
+
+  /@pastable/react/0.1.15_c6eb729cfe5aa3b08bc18d235e14915f:
+    resolution: {integrity: sha512-z8TJ+oDquGYnqH/EqgFgCu8RIdlMOuvcwtrwru274b2ewrxpWVo+K0UKeAnUTnmbPnIl4cKzXqp/bPswDjs/mQ==}
+    engines: {node: '>=14.x'}
+    peerDependenciesMeta:
+      jotai:
+        optional: true
+    dependencies:
+      '@pastable/typings': 0.0.8
+      '@pastable/utils': 0.1.15
+      jotai: 1.5.3_a74bd11cbaca440509a36c4f0d25318f
+      react: 17.0.2
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/template'
+      - '@urql/core'
+      - immer
+      - optics-ts
+      - react-query
+      - valtio
+      - wonka
+      - xstate
+    dev: false
+
+  /@pastable/typings/0.0.8:
+    resolution: {integrity: sha512-GSqDTkiU1EWTgausgl3M6ZS2DsHajYOVwNvI2rRL0qPXrT9cmhvi2TVSe8BjQArV+sQER/88He72Nsg1dq30ng==}
+    engines: {node: '>=14.x'}
+    dev: false
+
+  /@pastable/utils/0.1.15:
+    resolution: {integrity: sha512-ETHR3YTHHTxpSQ2kkm8Ld76Wm4SS0NQsT/ozJX61IC8NMxKg6ynC7bDhNqNpBNq63WgbWq99ytByoQhsR0lLRQ==}
+    engines: {node: '>=14.x'}
+    dependencies:
+      '@pastable/typings': 0.0.8
     dev: false
 
   /@popperjs/core/2.11.2:
