@@ -8,31 +8,32 @@
         "prettier": "prettier --write \"./{src,tests}/**/*\""
     },
     "dependencies": {
-        "@babel/core": "^7.17.0",
+        "@babel/core": "^7.17.5",
         "@chakra-ui/react": "^1.8.3",
         "@emotion/react": "^11.7.1",
         "@emotion/styled": "^11.6.0",
         "@pastable/core": "^0.1.19",
         "@xstate/react": "^2.0.0",
         "axios": "^0.25.0",
-        "framer-motion": "^6.2.4",
-        "jotai": "^1.5.3",
+        "framer-motion": "^6.2.6",
+        "jotai": "^1.6.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
-        "react-hook-form": "^7.26.0",
+        "react-hook-form": "^7.27.1",
         "react-icons": "^4.3.1",
-        "react-query": "^3.34.14",
+        "react-query": "^3.34.15",
         "react-router-dom": "^6.2.1",
-        "xstate": "^4.29.0"
+        "redaxios": "^0.4.1",
+        "xstate": "^4.30.1"
     },
     "devDependencies": {
         "@types/react": "^17.0.39",
         "@types/react-dom": "^17.0.11",
-        "@vitejs/plugin-react": "^1.1.4",
+        "@vitejs/plugin-react": "^1.2.0",
         "prettier": "^2.5.1",
         "prettier-plugin-sorted": "^2.0.0",
         "typescript": "^4.5.5",
-        "vite": "^2.7.13",
+        "vite": "^2.8.4",
         "vite-plugin-pwa": "^0.11.13"
     },
     "importSort": {
