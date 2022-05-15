@@ -3,7 +3,7 @@ import { getRandomString } from "pastable";
 
 // Toasts
 const toaster = createStandaloneToast();
-const toast = toaster.toast
+const toast = toaster.toast;
 const baseToastConfig = { duration: 3000, isClosable: true, unique: true };
 
 type ToastStatus = Exclude<UseToastOptions["status"], undefined> | "default";
