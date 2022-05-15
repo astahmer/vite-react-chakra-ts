@@ -1,14 +1,16 @@
 import { ToastId, UseToastOptions, createStandaloneToast } from "@chakra-ui/react";
-import { getRandomString } from "@pastable/core";
+import { getRandomString } from "pastable";
 
 // Toasts
-const toast = createStandaloneToast();
+const toaster = createStandaloneToast();
+const toast = toaster.toast
 const baseToastConfig = { duration: 3000, isClosable: true, unique: true };
 
 type ToastStatus = Exclude<UseToastOptions["status"], undefined> | "default";
 export const toastConfigs: Record<ToastStatus, UseToastOptions> = {
     default: { ...baseToastConfig },
     success: { ...baseToastConfig, status: "success" },
+    loading: { ...baseToastConfig, status: "loading" },
     error: { ...baseToastConfig, status: "error" },
     info: { ...baseToastConfig, status: "info" },
     warning: { ...baseToastConfig, status: "warning" },

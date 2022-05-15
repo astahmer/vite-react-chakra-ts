@@ -6,20 +6,20 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: "/",
-    root: "./",
-    build: { outDir: "./dist", sourcemap: true },
-    plugins: [
-        // https://jotai.org/docs/guides/vite
-        react({ babel: { plugins: [jotaiDebugLabel, jotaiReactRefresh] } }),
-        VitePWA(),
+  base: "/",
+  root: "./",
+  build: { outDir: "./dist", sourcemap: true },
+  plugins: [
+    // https://jotai.org/docs/guides/vite
+    react({ babel: { plugins: [jotaiDebugLabel, jotaiReactRefresh] } }),
+    VitePWA(),
+  ],
+  resolve: {
+    alias: [
+      {
+        find: "@",
+        replacement: "/src",
+      },
     ],
-    resolve: {
-        alias: [
-            {
-                find: "@",
-                replacement: "/src",
-            },
-        ],
-    },
+  },
 });
