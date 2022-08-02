@@ -2,8 +2,7 @@ import { ToastId, UseToastOptions, createStandaloneToast } from "@chakra-ui/reac
 import { getRandomString } from "pastable";
 
 // Toasts
-const toaster = createStandaloneToast();
-const toast = toaster.toast;
+export const { ToastContainer, toast } = createStandaloneToast();
 const baseToastConfig = { duration: 3000, isClosable: true, unique: true };
 
 type ToastStatus = Exclude<UseToastOptions["status"], undefined> | "default";
