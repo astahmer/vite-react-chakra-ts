@@ -1,6 +1,11 @@
 {
-    "name": "vite-chakra",
-    "version": "0.0.0",
+    "name": "vite-react-chakra-ts",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/astahmer/vite-react-chakra-ts.git"
+    },
+    "author": "Alexandre Stahmer <alexandre.stahmer@gmail.com>",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
